@@ -14,9 +14,11 @@
 <body>
     <!-- This goes at the top of the page and can show a navigation -->
     <header>
+        <!-- This is a heading tag h1 is the most important heading and h6 is the least important heading -->
         <h1>Zac's HTML Intro</h1>
         <!-- Navigation bar -->
         <nav>
+            <h2>Useful links</h2>
             <!-- Unordered list -->
             <ul>
                 <!-- List item -->
@@ -27,6 +29,15 @@
                 <a href="https://netflix.com"><li>netflix</li></a>
                 <a href="https://crazygames.com"><li>Crazy Games</li></a>
             </ul>
+            <h2>News services</h2>
+            <!-- Ordered list -->
+            <ol>
+                <a href="https://abc.net.au"><li>ABC</li> </a>
+                <a href="https://bbc.co.uk"><li>BBC</li></a>
+                <a href="https://sbs.com.au"><li>SBS</li></a>
+                <a href="https://smh.com.au"><li>SMH</li><a>
+                <a href="https://nytimes.com"><li>New York Times</li></a>
+            </ol>
         </nav>
     </header>
   <!-- Main is for the most important part of the website -->
@@ -44,5 +55,13 @@
   <aside>
     <p>Other text</p>
   </aside>
+  <!-- 
+      If you want to include JavaScript, it is normally good to put it at the end of the body.
+      This is because JavaScript often interacts with the elements on the page, and if they are not yet loaded,
+      the JavaScript will fail.
+  -->
+  <script>
+    alert("Hello World");
+  </script>
 </body>
 </html>
